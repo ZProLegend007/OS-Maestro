@@ -8,10 +8,24 @@
 import SwiftUI
 
 @main
-struct OS_MaestroApp: App {
+struct OSMaestroApp: App {
+    
+    // Define a key for UserDefaults
+    let hasLaunchedKey = "hasLaunchedBefore"
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Check if the app has launched before
+            if UserDefaults.standard.bool(forKey: hasLaunchedKey) {
+                // If it has launched before, show ContentView
+                ContentView()
+            } else {
+                // If it's the first launch, show Onboarding and set hasLaunched to true
+                Onboarding()
+                    .onAppear {
+                        UserDefaults.standard.set(true, forKey: hasLaunchedKey)
+                    }
+            }
         }
     }
 }

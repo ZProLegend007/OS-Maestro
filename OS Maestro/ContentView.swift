@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  OS Maestro
+//  OSMaestro
 //
-//  Created by Zac Booth on 5/2/24.
+//  Created by Zac Booth on 5/1/24.
 //
 
 import SwiftUI

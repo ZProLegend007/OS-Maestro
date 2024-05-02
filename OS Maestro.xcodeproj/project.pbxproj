@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190881322BE3C96600953B6B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190881312BE3C96600953B6B /* Onboarding.swift */; };
 		19AD67FF2BE3C81000D980D1 /* OS_MaestroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */; };
 		19AD68012BE3C81000D980D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD68002BE3C81000D980D1 /* ContentView.swift */; };
 		19AD68032BE3C81200D980D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AD68022BE3C81200D980D1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190881312BE3C96600953B6B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		19AD67FB2BE3C81000D980D1 /* OS Maestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OS Maestro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS_MaestroApp.swift; sourceTree = "<group>"; };
 		19AD68002BE3C81000D980D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */,
 				19AD68002BE3C81000D980D1 /* ContentView.swift */,
+				190881312BE3C96600953B6B /* Onboarding.swift */,
 				19AD68022BE3C81200D980D1 /* Assets.xcassets */,
 				19AD68072BE3C81200D980D1 /* OS_Maestro.entitlements */,
 				19AD68042BE3C81200D980D1 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190881322BE3C96600953B6B /* Onboarding.swift in Sources */,
 				19AD68012BE3C81000D980D1 /* ContentView.swift in Sources */,
 				19AD67FF2BE3C81000D980D1 /* OS_MaestroApp.swift in Sources */,
 			);
