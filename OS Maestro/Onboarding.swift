@@ -94,7 +94,7 @@ struct Onboarding: View {
                 if showButton {
                     // Wrap the Button in a frame to position it at the bottom center of the window
                     Button(action: {
-                        // Action for button tap
+                  // Add animation to Onboarding2
                     }) {
                         Text("Let's get started")
                             .foregroundColor(.white)

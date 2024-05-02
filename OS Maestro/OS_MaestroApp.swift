@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct OSMaestroApp: App {
     
@@ -19,11 +18,14 @@ struct OSMaestroApp: App {
             if UserDefaults.standard.bool(forKey: hasLaunchedKey) {
                 // If it has launched before, show ContentView
                 ContentView()
+                    .onAppear {
+                        UserDefaults.standard.set(false, forKey: hasLaunchedKey)
+                    }
             } else {
                 // If it's the first launch, show Onboarding and set hasLaunched to true
                 Onboarding()
                     .onAppear {
-                        UserDefaults.standard.set(true, forKey: hasLaunchedKey)
+                        UserDefaults.standard.set(false, forKey: hasLaunchedKey)
                     }
             }
         }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		190881322BE3C96600953B6B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190881312BE3C96600953B6B /* Onboarding.swift */; };
+		1908813C2BE3D0F700953B6B /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908813B2BE3D0F700953B6B /* Onboarding2.swift */; };
 		19AD67FF2BE3C81000D980D1 /* OS_MaestroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */; };
 		19AD68012BE3C81000D980D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD68002BE3C81000D980D1 /* ContentView.swift */; };
 		19AD68032BE3C81200D980D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AD68022BE3C81200D980D1 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		190881312BE3C96600953B6B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		1908813B2BE3D0F700953B6B /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
 		19AD67FB2BE3C81000D980D1 /* OS Maestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OS Maestro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS_MaestroApp.swift; sourceTree = "<group>"; };
 		19AD68002BE3C81000D980D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190881372BE3D09200953B6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1908813A2BE3D0B600953B6B /* Onboarding */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1908813A2BE3D0B600953B6B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				190881312BE3C96600953B6B /* Onboarding.swift */,
+				1908813B2BE3D0F700953B6B /* Onboarding2.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
 		19AD67F22BE3C81000D980D1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +116,9 @@
 		19AD67FD2BE3C81000D980D1 /* OS Maestro */ = {
 			isa = PBXGroup;
 			children = (
-				19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */,
 				19AD68002BE3C81000D980D1 /* ContentView.swift */,
-				190881312BE3C96600953B6B /* Onboarding.swift */,
+				19AD67FE2BE3C81000D980D1 /* OS_MaestroApp.swift */,
+				190881372BE3D09200953B6B /* Views */,
 				19AD68022BE3C81200D980D1 /* Assets.xcassets */,
 				19AD68072BE3C81200D980D1 /* OS_Maestro.entitlements */,
 				19AD68042BE3C81200D980D1 /* Preview Content */,
@@ -263,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				190881322BE3C96600953B6B /* Onboarding.swift in Sources */,
+				1908813C2BE3D0F700953B6B /* Onboarding2.swift in Sources */,
 				19AD68012BE3C81000D980D1 /* ContentView.swift in Sources */,
 				19AD67FF2BE3C81000D980D1 /* OS_MaestroApp.swift in Sources */,
 			);
